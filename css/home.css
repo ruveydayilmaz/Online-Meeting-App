@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+    background: #dddddd;
+}
+
+a:not(.login-header) {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+  
+  a:hover:not(.login-header,.btn_yellow) {
+    color: #4cce77;
+  }
+
+.logo-div {
+    width: 500px;
+    margin-left: 25px;
+  }
+  
+  .logo {
+    width: 60px;
+    float: left;
+  }
+  
+  .logo-name {
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: white;
+  }
+
+  
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 25px 0;
+  }
+  
+  .header__center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .header-item:not(:last-child) {
+    margin-right: 180px;
+  }
+  
+  .header-item[href], .header__head {
+    position: relative;
+    padding: 8px 0;
+    letter-spacing: -0.04em;
+    color: #999FAE;
+    -webkit-transition: color .25s;
+    -o-transition: color .25s;
+    transition: color .25s;
+  }
+  
+  .header-item[href]:before, .header__head:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    margin: 0 auto;
+    background: #4cce77;
+    border-radius: 2px;
+    -webkit-transition: width .25s;
+    -o-transition: width .25s;
+    transition: width .25s;
+  }
+
+.dashboard {
+    height: 100vh;
+    background: #FFDC60;
+}
+
+.dashaboard-list {
+    list-style: none;
+}
+
+li {
+    margin-top: 100px;
+    border-radius: 15px;
+    height: 50px;
+}
+
+.dashboard a {
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+.dash-logo {
+  width: 60px;
+  float: left;
+}
+
+.dash-logo-name {
+  padding-top: 20px;
+  color: white;
+}
+
+#chat-button {
+    background: none;
+    float: right;
+    margin-top: -150px;
+    margin-right: 100px;
+}
+
+#chat-button img {
+    width: 55px;
+}
+
+#chatbox-div {
+    width: 500px;
+    display: none;
+}
+
+#start, #join {
+  background-color: #4cce77;
+  border-radius: 30px;
+}
+
+#start:hover, #join:hover {
+  background-color: #63e990;
+}
+
+#start img , #join img{
+  width: 70px;
+}
+
+.transbox {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.transbox h6 {
+  color: #747679;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+#hide-btn {
+  display: none;
+}
+
+#join-container {
+  display: none;
+  margin: auto;
+  width: 300px;
+  height: 400px;
+  background-color: #94949452;
+}
